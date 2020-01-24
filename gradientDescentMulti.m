@@ -20,7 +20,7 @@ for iter = 1:num_iters
 predict=X*theta;
 error=X'*(predict-y);
 result=alpha/m * error;
-theta=theta-result
+theta=theta-result;
 
 
 
